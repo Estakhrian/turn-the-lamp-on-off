@@ -6,7 +6,7 @@ const bulbButton = document.getElementById("bulbButton")
 let bulbFlag = false
 
 
-//  یه ایونت روی دکمه ست میکنیم که باهاش دکمه رو خاموش یا روشن میکنیم از طریق تورو یا فالس بودن ثابت bulbglag 
+//  یه ایونت روی دکمه ست میکنیم که باهاش دکمه رو خاموش یا روشن میکنیم از طریق تورو یا فالس بودن ثابت bulbflag 
 // از طریق تغییر src
 // محتوا دکمه هم در هر لحظه تغییر میکنه
 
@@ -21,3 +21,4 @@ bulbButton.addEventListener("click", function () {
         bulbFlag = true
     }
 })
+
